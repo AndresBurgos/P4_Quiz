@@ -1,0 +1,20 @@
+{
+  "name": "quiz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "core",
+    "proyecto"
+  ],
+  "author": "Andres Burgos y Juan Crespi",
+  "license": "Unlicense",
+  "dependencies": {
+    "chalk": "^2.3.2",
+    "figlet": "^1.2.0"
+  }
+}

@@ -219,8 +219,8 @@ exports.playCmd = (socket, rl) => {
             }
         else
             {
-                log(socket, `INCORRECTO.`, 'red');
-                log(`Fin del juego. Aciertos: ${score}`);
+                log(socket, `INCORRECTO. Fin`, 'red');
+                
                 resolve();
             }
         });
@@ -244,7 +244,7 @@ exports.playCmd = (socket, rl) => {
 };
 
 
-exports.creditsCmd = rl => {
+exports.creditsCmd = (socket, rl) => {
     log(socket, 'Autores de la practica:');
     log(socket, 'Andres Burgos Sanchez', 'blue');
     log(socket, 'Juan Crespi de Valldaura', 'blue');
